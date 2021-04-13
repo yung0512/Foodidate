@@ -1,9 +1,9 @@
 # preprocessor PUG Sass
 
 
-##On the shell
+## On the shell
 ```
-    git clone [githubrepo](#https://github.com/yung0512/Foodidate/tree/main/Foodidate_about_us.git)
+    git clone https://github.com/yung0512/Foodidate.git
 
     npm i     
     //install dependencies (pug,sass)
