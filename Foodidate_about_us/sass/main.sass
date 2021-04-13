@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;500&display=swap')
+
+@font-face 
+  font-family: "Candara"
+  src: url(./res/Candara.ttf)
+
+
+body
+  background: #f2f1d6
+  position: fixed
+  width: 100%
+  overflow-x: scroll
+  min-height: 0px
+  font-family: source-han-sans-traditional,sans-serif
+  font-weight: 700
+  font-style: normal
+
+.title
+  width: 100vw
+  height: calc(8vh + 3vw)
+  position: absolute
+  display: inline-block
+  font-size: 4vh
+  font-weight: Medium
+  line-height: 1.5
+  background: #aecdd0
+  text-align: center
+  
+#title_icon
+  width: 100vw
+  height: calc(8vh + 3vw)
+  position: fixed
+  display: inline-block
+  margin: 0 auto
+  background-size: cover
+  background: url('../src/ａｂｏｕｔ　ｕｓ-27.png') no-repeat top / contain
+
+#aboutUs
+  width: 100vw
+  height: 10vh
+  top: calc(12vh + 6vw)
+  position: fixed
+  display: inline-block
+  font-size: 18pt
+  font-weight: Medium
+  letter-spacing: 0.2em
+  line-height: 1.5
+  color: #4d5651
+  text-align: center
+
+
+.wrapper
+  position: absolute
+  width: 1200px
+  height: 90vh
+  top: 54%
+  left: 50%
+  transform: translate(-50%, -50%)
+  overflow-x: scroll
+  overflow-y: hidden
+  justify-content: center
+  align-items: center
+  display: flex
+
+.wrapper::-webkit-scrollbar
+  display: none
+
+#flex-scroll
+  display: flex
+  width: 100%
+  height: 100%
+  align-items: center
+  flex-wrap: nowrap
+  
+.people 
+  display: inline-block
+  vertical-align: top
+  position: relative
+  flex-shrink: 0
+  width: 240px
+  height: 360px
+  margin: 0 12px
+  background: rgba(100,100,100,0.33)
+  border-radius: 0.7vw
+  transition: 0.3s
+
+.detail 
+  & #p1
+    background: url('../src/ａｂｏｕｔ　ｕｓ-09.png') no-repeat top / contain
+
+.empty
+  background: rgba(100,100,100,0)
+  box-shadow: 0 0 0 0 rgba(100, 100, 100, 0.6)
+    
+.dots
+  position: fixed
+  bottom: calc(7vh + 2vw)
+  width: 100vw
+  height: calc(7vh + 3vw)
+  display: flex
+  flex-wrap: nowrap
+  justify-content: center
+  align-content: center
+  align-items: center
+  overflow: hidden
+  white-space: nowrap
+  
+  & #dot1
+    background-color: #e0d3ea
+  
+  & #dot2
+    background-color: #f9d7d7
+  
+  & #dot3
+    background-color: #caedef
+  
+  & #dot4
+    background-color: #e2e1c3
+  
+  & #dot5
+    background-color: #f4ceae
+  
+  & #dot6
+    background-color: #eff2b8
+  
+  & #dot7
+    background-color: #bae2cc
+
+.dot
+  display: inline-block
+  position: relative
+  width: 24px
+  height: 24px
+  border-radius: 100px
+  margin: 0 10px
+  background-size: cover !important
+  background-attachment: fixed !important
+  transition: 0.3s
+  box-shadow: 2px 2px 5px 1px rgba(100, 100, 100, 0.6)
+  
+  &:hover
+    transform: scale(1.3)
+
+#p1
+  background: url('../src/ａｂｏｕｔ　ｕｓ-02.png') no-repeat top / contain
+  
+#p2
+  background: url('../src/ａｂｏｕｔ　ｕｓ-03.png') no-repeat top / contain 
+#p3
+  background: url('../src/ａｂｏｕｔ　ｕｓ-04.png') no-repeat top / contain
+    
+#p4
+  background: url('../src/ａｂｏｕｔ　ｕｓ-05.png') no-repeat top / contain
+    
+#p5
+  background: url('../src/ａｂｏｕｔ　ｕｓ-06.png') no-repeat top / contain
+    
+#p6
+  background: url('../src/ａｂｏｕｔ　ｕｓ-07.png') no-repeat top / contain
+    
+#p7
+  background: url('../src/ａｂｏｕｔ　ｕｓ-08.png') no-repeat top / contain
+    
+    
+
+

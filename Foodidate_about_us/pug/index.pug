@@ -1,0 +1,56 @@
+doctype html 
+html( lang="zh-TW" )
+    head 
+        meta(charset="UTF-8")
+        meta( name="viewport" content="width=device-width, initial-scale=1.0")
+        title About us 
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css")
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;400;500;900&display=swap" rel="stylesheet")
+        script.
+            (function(d) {
+            var config = {
+                kitId: 'nwf0yjq',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document)
+        link(href="../css/test.css" rel="stylesheet" type="text/css")
+    body 
+        .title 
+        #title_icon 
+        #aboutUs
+
+        .wrapper
+             #flex-scroll.js-loop 
+                .people.empty
+                .people.empty
+                .people.empty
+                .people#p1
+                .people#p2
+                .people#p3
+                .people#p4
+                .people#p5
+                .people#p6
+                .people#p7
+                .people.empty
+                .people.empty
+                .people.empty
+
+        .dots
+            .dot#dot1
+            .dot#dot2
+            .dot#dot3
+            .dot#dot4
+            .dot#dot5
+            .dot#dot6
+            .dot#dot7
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+        script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-infinitescroll/3.0.3/infinite-scroll.pkgd.min.js")
+        script(src="../app.js")
+      
+    
